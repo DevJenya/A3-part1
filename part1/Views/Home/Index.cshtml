@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center"> 
+    <p>Number of visits: @ViewData["visits_times"]</p>
+    <p>Your IP: @ViewData["ip_addr"]</p>
+    <p id="time_zone">Time Zone: @TimeZoneInfo.Local.StandardName</p>
+</div>
+ 
